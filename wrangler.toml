@@ -1,6 +1,7 @@
 name = "themecanary"
 main = "worker.js"
 compatibility_date = "2024-01-01"
+no_bundle = true
 
 routes = [
   { pattern = "theme.olsite.dev/*", zone_name = "olsite.dev" }
