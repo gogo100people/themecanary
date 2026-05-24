@@ -2,7 +2,7 @@ name: Deploy themecanary
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   deploy:
